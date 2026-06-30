@@ -1,5 +1,13 @@
 # LYRICA (LyricApp) — синхронизация текстов к музыке
 
+# Lyrica Server — `api.lyricapp.ru`
+
+Серверная часть платформы синхронизации текстов песен с музыкой (дипломный проект, ИТМО).
+
+# Репозитории
+| [worker](https://github.com/lyrable/lyrica-core) | [server](https://github.com/lyrable/lyrica-server) | [client](https://github.com/lyrable/lyrica-desktop-client) |
+|---|---|---|
+
 ## Что это
 Платформа для синхронизации текста песен с музыкой (word-level, на базе нейросетей). Дипломный проект ИТМО, защита близко.
 
