@@ -4,7 +4,7 @@
 Платформа для синхронизации текста песен с музыкой (word-level, на базе нейросетей). Дипломный проект ИТМО, защита близко.
 
 ## Архитектура
-
+<img width="1672" height="941" alt="5341276794973264626" src="https://github.com/user-attachments/assets/c01dd97b-2b18-42be-9d41-c556e402cd54" />
 Ноут А (api.lyricapp.ru) — FastAPI + PostgreSQL (asyncpg, без ORM)
 
 ↑ fire-and-forget POST /process (X-Worker-Secret)
@@ -40,3 +40,6 @@
 - `upsert_artist` всегда до `upsert_album` (FK)
 - DDNS: только DuckDNS+CNAME, прямой API reg.ru — только для реселлеров
 - `ssh`, не `sshd`, для перезапуска при правке конфига SSH на Ubuntu
+
+## PS
+проект будет разрабатываться дальше. Рекомендуем зайти в readme на репозиториях для того, чтобы узнать больше об архитектуре проекта.
